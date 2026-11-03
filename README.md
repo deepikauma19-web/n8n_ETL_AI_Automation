@@ -27,7 +27,7 @@ Attach your own OpenAI credential to the **OpenAI Chat Model** node.
 
 | File | Rows | What it is |
 |------|------|------------|
-| `students_messy.csv` | 50 | Input: the messy enrollment data uploaded through the form |
+| `student_enrollment_raw.csv` | 50 | Input: the original messy file uploaded through the form |
 | `students_clean.csv` | 33 | Output: cleaned rows where the fee is paid (17 unpaid rows filtered out) |
 
 Invalid emails are left empty in the clean file, and short phone numbers show `MISSING`.
